@@ -1,3 +1,26 @@
-#mainHeader{
- color: white;
+#mainHeader {
+  color: var(--primary-color);
+  display: flex;
+  justify-content: space-between;
+}
+
+.nav_manu {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  font-family: "Switzer";
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 23.76px;
+  text-align: center;
+}
+
+.main_logo {
+  width: 168.52px;
+  height: 33px;
+  top: 29.6px;
+  left: 636px;
+  gap: 0px;
+  border: 0.71px 0px 0px 0px;
+  opacity: 0px;
 }
