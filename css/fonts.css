@@ -1,0 +1,96 @@
+@font-face {
+  font-family: "Avenir Next LT Pro";
+  src: url("../assets/fonts/avenir-next/AvenirNextLTPro-Bold.otf")
+    format("opentype");
+  font-weight: bold;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Avenir Next LT Pro";
+  src: url("../assets/fonts/avenir-next/AvenirNextLTPro-It.otf")
+    format("opentype");
+  font-weight: normal;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: "Avenir Next LT Pro";
+  src: url("../assets/fonts/avenir-next/AvenirNextLTPro-Regular.otf")
+    format("opentype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+/* Boska Fonts */
+@font-face {
+  font-family: "Boska";
+  src: url("../assets/fonts/boska/Boska-Variable.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Boska";
+  src: url("../assets/fonts/boska/Boska-VariableItalic.ttf") format("truetype");
+  font-weight: normal;
+  font-style: italic;
+}
+
+/* Switzer Fonts */
+@font-face {
+  font-family: "Switzer";
+  src: url("../assets/fonts/switzer/Switzer-Black.ttf") format("truetype");
+  font-weight: 900;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Switzer";
+  src: url("../assets/fonts/switzer/Switzer-BlackItalic.ttf") format("truetype");
+  font-weight: 900;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: "Switzer";
+  src: url("../assets/fonts/switzer/Switzer-Bold.ttf") format("truetype");
+  font-weight: bold;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Switzer";
+  src: url("../assets/fonts/switzer/Switzer-BoldItalic.ttf") format("truetype");
+  font-weight: bold;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: "Switzer";
+  src: url("../assets/fonts/switzer/Switzer-Extrabold.ttf") format("truetype");
+  font-weight: 800;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Switzer";
+  src: url("../assets/fonts/switzer/Switzer-ExtraboldItalic.ttf")
+    format("truetype");
+  font-weight: 800;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: "Switzer";
+  src: url("../assets/fonts/switzer/Switzer-Extralight.ttf") format("truetype");
+  font-weight: 200;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Switzer";
+  src: url("../assets/fonts/switzer/Switzer-Variable.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
