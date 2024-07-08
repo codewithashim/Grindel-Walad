@@ -37,7 +37,6 @@
   font-style: italic;
 }
 
-/* Switzer Fonts */
 @font-face {
   font-family: "Switzer";
   src: url("../assets/fonts/switzer/Switzer-Black.ttf") format("truetype");
