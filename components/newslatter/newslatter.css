@@ -1,0 +1,35 @@
+.newslatter_section{
+    background: var(--primary-color);
+    padding: 20px;
+}
+
+.newslatter_content{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 2rem;
+}
+
+.newslatter_content h1{
+ font-size: 4rem;
+ font-family: "Boska";
+ font-weight: 500;
+ width: 80%;
+ margin-bottom: 1rem;
+}
+
+.newslatter_content p{
+   font-size: 1.4rem; 
+   margin-bottom: 1rem;
+}
+
+.newslatter_content button{
+    background: transparent;
+    font-size: 1.4rem;
+    border: 1px solid var(--primary-dark-color);
+    padding: 1.7rem;
+    border-radius: 100%;
+    cursor: pointer;
+}
+
+

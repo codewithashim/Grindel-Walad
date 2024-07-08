@@ -1,0 +1,67 @@
+.offer_container {
+    height: 70vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+padding: 3rem;
+}
+
+.offer_section {
+    background: url('../../assets/images/ctaBanner.png') center/cover no-repeat;
+    width: 80%;
+    height: 100%;
+    text-align: center;
+    color:var(--primary-color);
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 1.2rem;
+}
+
+.offer_section h1 {
+    font-size: 2.5em;
+    margin-bottom: 1rem;
+}
+
+.offer_section h1 span {
+    color: var(--accent-color);
+}
+
+.offer_section p {
+    font-size: 1.2em;
+    margin-bottom: 2rem;
+}
+
+.input_container {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+}
+
+.input_container input {
+    width: 60%;
+    padding: 1rem;
+    border-radius: 5px;
+    border: none;
+    font-size: 1em;
+}
+
+.input_container button {
+    margin-left: -2rem;
+    padding: 1rem 2rem;
+    background-color: var(--accent-color);
+    border: none;
+    border-radius: 5px;
+    font-size: 1em;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.input_container button:hover {
+    margin-left: 3rem !important;
+    background-color: var(--accent-color);
+}

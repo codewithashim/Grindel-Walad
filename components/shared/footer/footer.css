@@ -1,0 +1,64 @@
+footer{
+    font-family: "Boska";
+}
+
+.footer_content {
+  display: flex;
+  align-items: center;
+  position: relative;
+}
+
+.footer_content h1{
+    font-size: 3rem;
+}
+
+.footer_content p{
+    font-size: 1.3rem;
+}
+
+.footer_left {
+    padding: 5rem;
+    width: 40%;
+    background: var(--accent-color);
+}
+
+.downarrow_2{
+    position: absolute;
+    bottom: 5%;
+    left: 20%;
+}
+
+.footer_right{
+    padding: 5rem;
+    width: 60%;
+    background: var(--primary-dark-color);
+    color: var(--primary-color);
+    display: flex;
+    align-items: center;
+    gap: 5rem;
+
+
+}
+
+.right_content{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 2rem;
+}
+
+.footer_content{
+    background: var(--primary-color);
+}
+
+.footer_manu{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 4rem;
+}
+
+.footer_manu a{
+    color: var(--main-black);
+
+}

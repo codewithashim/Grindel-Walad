@@ -1,0 +1,104 @@
+ 
+body {
+    margin: 0;
+    font-family: "Boska", Arial, sans-serif;
+}
+
+.testimonial_section {
+    background: var(--primary-accent);
+    padding: 2rem 0;
+}
+
+.testimonial_header {
+    margin-bottom: 2rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.testimonial_header h1 {
+    width: 50%;
+    font-size: 2.5em;
+    margin-bottom: 0.5rem;
+    font-weight: 400;
+}
+
+.testimonial_header p {
+    font-size: 1.2em;
+    color: var(--secondary-accent-color);
+    width: 40%;
+}
+
+.testimonial_container {
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+    margin-bottom: 2rem;
+    position: relative;
+}
+
+.testimonial_card {
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+    width: 100%;
+    height: 30rem; 
+}
+
+.testimonial_card img {
+    width: 100%;
+    height: 100%; 
+    object-fit: cover;
+    position: absolute; 
+    top: 0;
+    left: 0;
+    z-index: 0;
+}
+
+.testimonial_text {
+    position: absolute; 
+    bottom: 2%; 
+    right: 2%;
+    width: 100%;
+    padding-left: 2rem;
+    padding-bottom: 0.6rem;
+    background:var(--primary-accent); 
+    color: black;
+    z-index: 10;
+}
+
+.testimonial_text span {
+    font-size: 1.5em;
+}
+
+.testimonial_text h3 {
+    font-size: 1.2em;
+    margin: 0.5rem 0;
+}
+
+.testimonial_text p {
+    font-size: 1em;
+}
+
+.testimonial_navigation {
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+}
+
+.nav_button {
+    background: var(--highlight-color);
+    border: none;
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    transition: background 0.3s;
+}
